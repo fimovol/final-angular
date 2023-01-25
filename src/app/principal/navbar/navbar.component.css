@@ -1,9 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+
 *{
     --color-verde: #06945b;
     --color-verde-claro: #68e5a2;
     --color-piel: #f1b280;
     --color-azul: #395be0;
     --color-amarillo: #fae053;
+}
+header{
+    font-family: 'Open Sans', Helvetica, sans-serif;;
 }
 nav{
     display: flex;
@@ -14,6 +19,9 @@ ul{
     list-style: none;
 }
 ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 20px;
     margin: 0px 1.5px;
     border: 2px solid var(--color-piel);
@@ -27,7 +35,7 @@ ul li:hover{
 a{
     font-weight: 600;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 21px;
     user-select: none;
     color: black;
 }
