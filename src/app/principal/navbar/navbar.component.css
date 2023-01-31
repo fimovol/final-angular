@@ -8,7 +8,7 @@
     --color-amarillo: #fae053;
 }
 header{
-    font-family: 'Open Sans', Helvetica, sans-serif;;
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 nav{
     display: flex;
@@ -22,17 +22,17 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+a:hover{
+    background-color: var(--color-piel);
+    cursor: pointer;
+}
+a{
     padding: 0px 20px;
     margin: 0px 1.5px;
     border: 2px solid var(--color-piel);
     /* background-color: var(--color-azul); */
     transition: all 0.4s ease-in-out;
-}
-ul li:hover{
-    background-color: var(--color-piel);
-    cursor: pointer;
-}
-a{
     font-weight: 600;
     text-decoration: none;
     font-size: 21px;
